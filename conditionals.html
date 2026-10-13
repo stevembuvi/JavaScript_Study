@@ -19,9 +19,9 @@
             console.log("Odd")
         }
 
-         let num1 = Number(prompt("Enter num1"))
-         let num2 = Number(prompt("Enter num2"))
-         let num3 = Number(prompt("Enter num3"))
+        let num1 = Number(prompt("Enter num1"))
+        let num2 = Number(prompt("Enter num2"))
+        let num3 = Number(prompt("Enter num3"))
 
         if (num1 > num2 && num1 > num3) {
             console.log(`${num1} is the largest`)
@@ -30,6 +30,19 @@
         } else {
             console.log(`${num3} is the largest`)
         }
+
+        //ternary operator
+        let number = Number(prompt("Enter a random number"))
+
+        let is_even = number % 2 == 0 ? "Even" : "Odd"
+        console.log(is_even)
+
+        //use a ternary operator to write a program that checks whether a person is eligible to drive, assume legal age of 18
+
+        let age= Number(prompt("Enter a random age"))
+        let eligible = age>= 18? "Elgible" : "Not Elgigible"
+        console.log(elgible)
+
     </script>
 </body>
 

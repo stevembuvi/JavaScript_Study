@@ -36,7 +36,7 @@
 
         //Create a variable called year and enter the a random year. Check if the year is a leap year or not. A leap year is a year that is divisible by 4  not divisible by 100 or divisible  by 400.
         let year = Number(prompt("Enter year"))
-        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+        if (((year % 4 == 0 && (year % 100 != 0)) || (year % 400 == 0)) {
             console.log(year + " is a leap year.");
         } else {
             console.log(year + " is not a leap year.");
@@ -69,15 +69,16 @@
             console.log("Access denied")
         }
         //Write a js program that checks if a variable student_score is greater than 90. If true, check if the attendance is greater than 80. If both conditions are true, display"Excellent student", otherwise display "Good score, but attendance needs improvement"
-        let student_score = 95;
-        let attendance = 85;
+        let student_score = 92;
+        let attendance = 79;
 
-        if (student_score > 90)
+        if (student_score > 90) {
             if (attendance > 80) {
-                console.log("Excellent student")
+                console.log("Excellent student");
             } else {
-                console.log("Good score, but attendance needs improvement")
+                console.log("Good score, but attendance needs improvement");
             }
+        }
     </script>
 </body>
 
