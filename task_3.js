@@ -8,10 +8,10 @@ let b=7
 let c=4
 let d=9
 
-if (a * d > c * b) {
-  console.log("a/b is larger");
-} else if (a * d < c * b) {
-  console.log("c/d is larger");
+if ((a * d) > (c * b)) {
+  console.log(`${a/b} is larger`);
+} else if ((a * d) < (c * b)) {
+  console.log(`${c/d} is larger`);
 } else {
   console.log("Both fractions are equal");
 }
